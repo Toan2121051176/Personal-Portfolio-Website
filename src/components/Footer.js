@@ -1,7 +1,11 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = () => { 
+  const openInNewTab = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
@@ -9,7 +13,7 @@ const Footer = () => {
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Toàn Báo</h3>
             <p className="text-gray-400">
-            Lập trình viên Full-Stack có trụ sở tại , chuyên về phát triển web và phần mềm.
+              Lập trình viên Full-Stack có trụ sở tại Việt Nam, chuyên về phát triển web và phần mềm.
             </p>
           </div>
           <div className="flex-1 w-full">
@@ -39,18 +43,30 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Toàn Báo. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="https://www.facebook.com/toan.chuthe.1" className="text-gray-400 hover:text-white">
+            <button
+              onClick={() => openInNewTab('https://www.facebook.com/toan.chuthe.1')}
+              className="text-gray-400 hover:text-white"
+            >
               <FaFacebook />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            </button>
+            <button
+              onClick={() => openInNewTab('https://twitter.com/')}
+              className="text-gray-400 hover:text-white"
+            >
               <FaTwitter />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            </button>
+            <button
+              onClick={() => openInNewTab('https://www.linkedin.com/')}
+              className="text-gray-400 hover:text-white"
+            >
               <FaLinkedin />
-            </a>
-            <a href="https://github.com/Toan2121051176/" className="text-gray-400 hover:text-white">
+            </button>
+            <button
+              onClick={() => openInNewTab('https://github.com/Toan2121051176/')}
+              className="text-gray-400 hover:text-white"
+            >
               <FaGithub />
-            </a>
+            </button>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">

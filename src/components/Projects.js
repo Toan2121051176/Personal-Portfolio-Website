@@ -5,24 +5,24 @@ import bookMSImage from "../assets/admin-dashboard.png";
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
+    name: "Personal-Portfolio-Website",
+    technologies: "Elcom",
     image: employeeMSImage,
-    github: "#",
+    github: "https://github.com/Toan2121051176/Personal-Portfolio-Website",
   },
   {
     id: 2,
     name: "Blog App",
-    technologies: "MERN Stack",
+    technologies: "Elcom",
     image: bookMSImage,
-    github: "#",
+    github: "https://github.com/Toan2121051176/HTML",
   },
   {
     id: 3,
     name: "Book MS",
-    technologies: "MERN Stack",
+    technologies: "Elcom",
     image: employeeMSImage,
-    github: "#",
+    github: "https://github.com/Toan2121051176/BaiTapLon",
   },
 ];
 

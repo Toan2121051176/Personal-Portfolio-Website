@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/aboutme-image.png";
+import AboutImage from "../assets/1.jpg";
 
 const About = () => {
   return (
@@ -14,8 +14,7 @@ const About = () => {
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-            Tôi là một lập trình viên full-stack đam mê, tập trung vào việc xây dựng các ứng dụng web hiện đại và đáp ứng. Với nền tảng vững chắc trong cả công nghệ frontend và backend, tôi nỗ lực tạo ra những trải nghiệm người dùng liền mạch và hiệu quả.
-            </p>
+Tôi Tên là Chu Thế Toàn. Sinh viên năm 4 Trường đại học Mỏ Địa Chất. Học ngành Công thông tin chuyên ngành Tin địa Học              </p>
             <div className="space-y-4">
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
@@ -55,21 +54,21 @@ const About = () => {
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        3+
+                        0+
                     </h3>
                     <p>Years Experience</p>
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        50+
+                        3+
                     </h3>
                     <p>Projects Completed</p>
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500">
-                        10+
+                        0+
                     </h3>
                     <p>Happy Clients</p>
                 </div>

@@ -1,24 +1,24 @@
-import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavbarHook from "./NavbarHook/NavbarHook";
-import Home from "./pages/Home";
-import News from "./pages/News";
 
-const App = () => {
+import './App.css'
+import About from './components/About'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Projects from './components/Projects'
+
+function App() {
+
   return (
-    <Router>
-      {/* <Navbar /> */}
-      <NavbarHook />
-      <main className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News />} />
-          {/* Define other routes that you need*/}
-        </Routes>
-      </main>
-    </Router>
-  );
-};
+    <div>
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+    </div>
+  )
+}
 
-export default App;
+export default App
